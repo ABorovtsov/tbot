@@ -1,0 +1,3 @@
+pyTelegramBotApi
+pandas
+dotenv

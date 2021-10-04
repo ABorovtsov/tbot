@@ -1,0 +1,8 @@
+user_name,user_id,time,product_id,product_name,num,price,status,comment
+Alexander Borovtsov,880760048,2021-09-30 11:39:32.370499,1,unknown,1,90,открыт,
+Alexander Borovtsov,880760048,2021-09-30 11:52:16.479774,2,unknown,1,87,открыт,
+Alexander Borovtsov,880760048,2021-09-30 14:14:16.181751,2,unknown,1,87,открыт,
+Alexander Borovtsov,880760048,2021-09-30 14:22:43.346781,2,Шоколад Марс,1,87,+,
+Alexander Borovtsov,880760048,2021-09-30 14:36:55.499670,2,Шоколад Марс,1,87,открыт,
+Alexander Borovtsov,880760048,2021-10-01 16:49:58.953469,2,Шоколад Марс,1,87,открыт,
+Alexander Borovtsov,880760048,2021-10-01 16:50:26.972175,2,Шоколад Марс,1,87,открыт,
