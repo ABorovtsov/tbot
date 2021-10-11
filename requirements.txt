@@ -1,3 +1,4 @@
 pyTelegramBotApi
 pandas
 python-dotenv
+mysql-connector-python

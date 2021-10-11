@@ -12,10 +12,10 @@ cd %Src_Folder%
 
 2. Build the image:
 ```powershell
-docker build -t tbot .
+docker build -t aborovtsov/tbot:v0.1.0 .
 ```
 
 3. Run the container:
 ```powershell
-docker run --rm -it -p 8000:8000 --name tbot tbot
+docker run --rm -it -p 8000:8000 --name tbot aborovtsov/tbot
 ```

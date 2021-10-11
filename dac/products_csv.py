@@ -1,18 +1,19 @@
 import os
 import pandas as pd
-from dac.orders_csv import Orders
 
 
 class Products:
-    def __init__(self):
+    def __init__(self, orders_dac=None):
         self.csv_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../data/products.csv'))
+        self.orders_dac = orders_dac
+        if orders_dac is not None:
+            self.orders_dac.products_dac = self
 
     def get_list(self, limit:int=-1):
         product_df = pd.read_csv(self.csv_path)
-        orders = Orders()
 
         # todo: do it via column operation
-        product_df['num_reserved'] = [orders.get_products_reserved(product_id) for product_id in product_df.id]
+        product_df['num_reserved'] = [self.orders_dac.get_products_reserved(product_id) for product_id in product_df.id]
         product_df['num_available'] = product_df.num_total - product_df.num_reserved
         product_df = product_df.loc[product_df.num_available > 0]
 

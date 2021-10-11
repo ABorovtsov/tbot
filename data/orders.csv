@@ -1,8 +1,6 @@
-user_name,user_id,time,product_id,product_name,num,price,status,comment
-Alexander Borovtsov,880760048,2021-09-30 11:39:32.370499,1,unknown,1,90,открыт,
-Alexander Borovtsov,880760048,2021-09-30 11:52:16.479774,2,unknown,1,87,открыт,
-Alexander Borovtsov,880760048,2021-09-30 14:14:16.181751,2,unknown,1,87,открыт,
-Alexander Borovtsov,880760048,2021-09-30 14:22:43.346781,2,Шоколад Марс,1,87,+,
-Alexander Borovtsov,880760048,2021-09-30 14:36:55.499670,2,Шоколад Марс,1,87,открыт,
-Alexander Borovtsov,880760048,2021-10-01 16:49:58.953469,2,Шоколад Марс,1,87,открыт,
-Alexander Borovtsov,880760048,2021-10-01 16:50:26.972175,2,Шоколад Марс,1,87,открыт,
+user_first_name,user_last_name,user_name,user_id,user_is_bot,time,product_id,product_name,quantity,price,status,comment
+Alexander,Borovtsov,,880760048,False,2021-10-07 16:58:02.359970,1,Mars Chocolate,1,10.0,открыт,
+Alexander,Borovtsov,,880760048,False,2021-10-07 17:09:51.486049,2,<pandas.core.indexing._iLocIndexer object at 0x000001A2E1B3D5E8>,1,11.0,открыт,
+Alexander,Borovtsov,,880760048,False,2021-10-07 17:13:40.119113,2,Snickers Chocolate,1,11.0,открыт,
+"('Alexander',)","('Borovtsov',)","('None',)","('880760048',)","('False',)",2021-10-08 10:58:13.970951,2,Шоколад Марс,1,87.0,открыт,
+Alexander,Borovtsov,,880760048,False,2021-10-08 11:03:31.894553,2,Шоколад Марс,1,87.0,открыт,
